@@ -12,6 +12,7 @@ namespace AcmeScrubber
     {
         static void Main(string[] args)
         {
+
             CodeExtractor codeExtractor = new CodeExtractor();
             LegacyObjectMetadataProvider.V1 metadataProviderVersion1 = new LegacyObjectMetadataProvider.V1();
             string metadata = metadataProviderVersion1.ProvideMetadata();
