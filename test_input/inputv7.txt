@@ -1,0 +1,70 @@
+<Object>
+ <ItemType>Pick</ItemType>
+  <Code>XA87</Code>
+  <Market>SV</Market>
+  <Version>6</Version>
+  <Metadata>3OZ~_SE2~37f95122-c8e2-40cc-bad7-76fcffc0d981_ICGNA~3xH5VEB</Metadata>
+</Object>
+<Object>
+  <ItemType>Pick</ItemType>
+  <Code>HN890</Code>
+  <Market>EN</Market>
+  <Version>8</Version>
+  <Metadata>W98~_CGO~683f6ece-8bf1-4d22-b689-a7ffdeae6d8f_HC2~LclJ02g</Metadata>
+</Object>
+<Object>
+  <ItemType>BlendedBeans</ItemType>
+  <Code>BVT</Code>
+  <Market>DE</Market>
+  <Version>4</Version>
+  <Metadata>P9H~_65Y~94943a02-bf78-4a37-83c7-001df4bf0174_GO88~CStQRNB</Metadata>
+</Object>
+<Object>
+  <ItemType>Pick</ItemType>
+  <Code>35PPL</Code>
+  <Market>PL</Market>
+  <Version>7</Version>
+  <Metadata>OPI~_5I5~ec34b684-df58-4e4e-844f-cd0088ba5627_H557~9at35By</Metadata>
+</Object>
+<Object>
+  <ItemType>Guitar pick</ItemType>
+  <Code>VKLJV</Code>
+  <Market>DE</Market>
+  <Version>6</Version>
+  <Metadata>E2H~_3A5~9413d65c-4e7d-4e62-9ee6-d8ca6c37d8bc_19ZDJ~4gYYSf5</Metadata>
+</Object>
+<Object>
+  <ItemType>CoffeGrinder</ItemType>
+  <Code>7D9RYPL</Code>
+  <Market>PL</Market>
+  <Version>5</Version>
+  <Metadata>GXV~_AM2~8301c75f-eab3-4e4a-b828-d12d9d9af592_DDYDS~ovMzvoq</Metadata>
+</Object>
+<Object>
+  <ItemType>ExhaustPipe</ItemType>
+  <Code>264K1BG</Code>
+  <Market>BG</Market>
+  <Version>6</Version>
+  <Metadata>KTU~_7WY~3bcfde79-fc03-4c0e-b97d-02ea7eaba781_2BSI2~aTtM9zR</Metadata>
+</Object>
+<Object>
+  <ItemType>Iron Pipe</ItemType>
+  <Code>1X6V</Code>
+  <Market>ZH</Market>
+  <Version>4</Version>
+  <Metadata>M3Z~_0J8~77a1aec5-3aec-4725-935d-ce38c5f8f2e7_TUR~8JUg0jW</Metadata>
+</Object>
+<Object>
+  <ItemType>Guitar pick</ItemType>
+  <Code>VED1Q</Code>
+  <Market>EN</Market>
+  <Version>5</Version>
+  <Metadata>W8T~_ERQ~2122cd88-87af-412d-b210-3f2db3e76caa_YTC4~fkoaVSW</Metadata>
+</Object>
+<Object>
+  <ItemType>Calculator</ItemType>
+  <Code>WLN13BG</Code>
+  <Market>BG</Market>
+  <Version>5</Version>
+  <Metadata>BIO~_DVG~98af2343-5cc2-4bcf-8da0-0c05bc514337_UANR~cn8wt2F</Metadata>
+</Object>

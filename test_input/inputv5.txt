@@ -1,0 +1,30 @@
+<Object>
+  <ItemType>CoffeGrinder<Metadata>9RK~ZH_JKB_v5~XX6C~b72bfe30-7632-4a2c-8676-0222c1e61ba5_LH8D2~9T6mrGZ</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>Mobile Toothpick<Metadata>T6O~PL_RUJ_v4~LX5N~266e4eb0-4894-4333-b27d-bb21369deafd_OYJ~Xg3Ic54</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>Wine<Metadata>GXV~SL_ZT2_v6~ZKNR~a9532a6f-fa62-49f1-938e-3c58f6ec6cda_VH3~ZLNB0fp</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>ExhaustPipe<Metadata>GE0~PL_9L8_v5~006X~4973a75e-da77-4bb6-9164-e75c4a21f5c3_8ZD~tChPHE6</Metadata></ItemType>
+</Object>
+ <Object>
+  <ItemType>Iron Pipe<Metadata>649~PL_7VI_v7~TCMWD~2987f9fa-0e16-4675-9fa2-1bc288e243e1_DUIR5~BrEIZsD</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>Guitar pick<Metadata>BOO~SL_CUN_v5~ZHXSS~66c5d2c1-b73f-47c7-a052-433d395aa7f2_T52RZ~57BoLxf</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>ExhaustPipe<Metadata>WLT~FR_MVW_v7~JRYT~ed1e593a-acf5-4096-9fa7-9f0e85efc9fd_OL1~KLV599w</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>Guitar pick<Metadata>E6H~ZH_HGY_v5~IW5MQ~31f35cfd-5648-45a7-b343-ddb1c1f1bc03_MMEEQ~xrO0BxL</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>Iron Pipe<Metadata>YYC~SL_Q7U_v5~E0TN~e563bd3f-f7a1-42c4-97a2-9806c6ec9c17_EVB~z9x1hic</Metadata></ItemType>
+</Object>
+<Object>
+  <ItemType>CoffeGrinder<Metadata>2R9~SV_2KS_v7~WRPM~3750c4e6-62f9-4262-a80b-ad385eadb69e_IYSX~kWtbuNP</Metadata></ItemType>
+</Object>

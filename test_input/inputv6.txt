@@ -1,0 +1,70 @@
+{
+  "object": {
+    "ItemType": "JamJar",
+    "WarehouseId": "CkdGbgd",
+    "Metadata": "W5J~SV_1QG_v7~Y34~6006fa3d-9f5a-496a-b7b4-479de451811a"
+  }
+}
+{
+  "object": {
+    "ItemType": "Calculator",
+    "WarehouseId": "v9kQxoh",
+    "Metadata": "LA7~FR_1WY_v7~GA66~334b9f85-37f1-4ef6-ad5a-111f070f3d6f"
+  }
+}
+{
+  "object": {
+    "ItemType": "Mobile Toothpick",
+    "WarehouseId": "nAwEZXe",
+    "Metadata": "28A~FR_13R_v6~CFC8~7198d1d5-c062-4e88-96f8-2ea7641b7519"
+  }
+}
+{
+  "object": {
+    "ItemType": "BlendedBeans",
+    "WarehouseId": "ZphBxk6",
+    "Metadata": "14O~EL_KMV_v6~G03DU~f949ad8d-29a4-4bd6-8c51-d1768dddf814"
+  }
+}
+{
+  "object": {
+    "ItemType": "Iron Pipe",
+    "WarehouseId": "X11QE3Z",
+    "Metadata": "I47~EN_1VD_v6~F3H~329fb18c-49ab-4aad-a91c-42a3b38f62c4"
+  }
+}
+{
+  "object": {
+    "ItemType": "Wine",
+    "WarehouseId": "AgI5qAk",
+    "Metadata": "70A~SL_DKY_v4~NU64H~3c18d6ad-dc4c-4e15-8bff-ec120f37105f"
+  }
+}
+{
+  "object": {
+    "ItemType": "BlendedBeans",
+    "WarehouseId": "FkAXK0k",
+    "Metadata": "7N2~EN_N4M_v4~SBMV~b7eac73b-122e-4d8a-826e-583c960c9d9c"
+  }
+}
+{
+  "object": {
+    "ItemType": "ExhaustPipe",
+    "WarehouseId": "2ex0NCX",
+    "Metadata": "24U~ZH_FPT_v8~FHOX7~a3567055-f982-4871-87d6-2b9304b038d2"
+  }
+}
+{
+  "object": {
+    "ItemType": "ExhaustPipe",
+    "WarehouseId": "75zyYW0",
+    "Metadata": "78W~BG_6ZS_v6~30M2~0d8a850a-6f52-422f-a493-13f3da7b041f"
+  }
+}
+{
+  "object": {
+    "ItemType": "Pick",
+    "WarehouseId": "4r5kO4j",
+    "Metadata": "6VO~ZH_1T5_v4~TUU~e6478385-b7c0-41da-9ac7-ef99c975733e"
+  }
+}

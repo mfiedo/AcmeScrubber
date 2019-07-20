@@ -15,9 +15,9 @@ namespace AcmeScrubber
                     string langCode = matchLangCode.Groups[2].Value;
                     string code = match.Groups[2].Value;
                     Match matchCheck = Regex.Match(code, @"(.*)(..)");
-                    if (matchCheck.Groups[2].Value == langCode)
+                    if (code.Contains(langCode))
                     {
-                        return code.Substring(code.Length - 2); //remove language code from resault
+                        return code.Substring(0, code.Length - 2); //remove language code from resault
                     }
                     else
                     {
@@ -26,13 +26,13 @@ namespace AcmeScrubber
                 }
                 else if (metadata.Contains("WarehouseId") == true)
                 {
-                    Match match = Regex.Match(metadata, @"(.+\<Metadata\>)(.*?~){2}(.*?)(~.+)"); // ver 6, group 4
-                    return match.Groups[4].Value;
+                    Match match = Regex.Match(metadata, @"(.*?~){2}(.*?)(~.+)"); // ver 6, group 4
+                    return match.Groups[2].Value;
                 }
                 else if (metadata.Contains("<ItemType>") == true)
                 {
                     Match match = Regex.Match(metadata, @"(.+\<Metadata\>)(.*?~){2}(.*?)(~.+)"); // ver 5, group 4
-                    return match.Groups[4].Value;
+                    return match.Groups[3].Value;
                 }
                 else if (Regex.Match(metadata, @"(((.*?~)(.*?_)){2})(.*?_)(v\d)").Success == true)
                 {
@@ -43,14 +43,14 @@ namespace AcmeScrubber
                     }
                     else
                     {
-                        Match match = Regex.Match(metadata, @"(.*?~){3}(.*?)(~.+)"); // ver 4 v0-5, group 3
-                        return match.Groups[3].Value;
+                        Match match = Regex.Match(metadata, @"(.*?~){3}(.*?)(~.+)"); // ver 4 v0-5, group 2
+                        return match.Groups[2].Value;
                     }
                 }
                 else if (Regex.Match(metadata, @"(.*?~){4}").Success == true)
                 {
-                    Match match = Regex.Match(metadata, @"(.+_)(.+)(~.+)"); // ver 3, group 5
-                    return match.Groups[5].Value;
+                    Match match = Regex.Match(metadata, @"((.+?_){3})(.*?)(~.+)"); // ver 3, group 3
+                    return match.Groups[3].Value;
                 }
                 else
                 {
