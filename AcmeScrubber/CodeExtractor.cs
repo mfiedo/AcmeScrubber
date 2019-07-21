@@ -2,8 +2,7 @@
 
 namespace AcmeScrubber
 {
-    partial class Program
-    {
+    
         public class CodeExtractor
         {
             public string GetCode(string metadata)
@@ -15,13 +14,20 @@ namespace AcmeScrubber
                     string langCode = matchLangCode.Groups[2].Value;
                     string code = match.Groups[2].Value;
                     Match matchCheck = Regex.Match(code, @"(.*)(..)");
-                    if (code.Contains(langCode))
+                    if (langCode == "PL" | langCode == "BG" | langCode == "EL")
                     {
-                        return code.Substring(0, code.Length - 2); //remove language code from resault
+                        if (matchCheck.Groups[2].Value == langCode)
+                        {
+                            return code.Substring(0, code.Length - 2); //remove language code from resault
+                        }
+                        else
+                        {
+                            return code;
+                        }
                     }
                     else
                     {
-                        return code;
+                        return code; 
                     }
                 }
                 else if (metadata.Contains("WarehouseId") == true)
@@ -59,5 +65,5 @@ namespace AcmeScrubber
                 }
             }
         }
-    }
+    
 }

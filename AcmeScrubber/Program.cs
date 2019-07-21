@@ -15,13 +15,27 @@ namespace AcmeScrubber
         {
 
             CodeExtractor codeExtractor = new CodeExtractor();
-            LegacyObjectMetadataProvider.V1 metadataProviderVersion1 = new LegacyObjectMetadataProvider.V1();
-            //string metadata = metadataProviderVersion1.ProvideMetadata();
-            string buffer = File.ReadAllText(@"c:\Users\Marcin\Desktop\input1-4.txt", Encoding.UTF8);
+            ObjectCodeValidator validator = new ObjectCodeValidator();
+            for (int i=0; i<1000000; i++)
+            {
+                LegacyObjectMetadataProvider.LatestVersionProvider metadataProviderVersionAll = new LegacyObjectMetadataProvider.LatestVersionProvider();
+                
+                string metadata = metadataProviderVersionAll.ProvideMetadata();
+                Console.WriteLine($"Getting product code from {metadata}");
+                string code = codeExtractor.GetCode(metadata);
+                Console.WriteLine($"Recognized code as [{code}]");
+
+                
+                validator.AssertCodeIsValid(code, metadata); //<- tu walidujemy czy Wasza logika zadziałała
+
+                Console.WriteLine($"Code [{code}] is valid\n");
+            }
+            /*LegacyObjectMetadataProvider.LatestVersionProvider metadataProviderVersion1 = new LegacyObjectMetadataProvider.LatestVersionProvider();
+            string buffer = metadataProviderVersion1.ProvideMetadata();
+            //string buffer = File.ReadAllText(@"c:\Users\Marcin\Desktop\input1-4.txt", Encoding.UTF8);
             string [] metadataList = null;
             VersionGuesser ver = new VersionGuesser();
             metadataList = ver.guessVer(buffer);
-            //metadataList = File.ReadAllLines(@"c:\Users\Marcin\Desktop\inputv5.txt", Encoding.UTF8);
             foreach (string metadata in metadataList)
             {
                 Console.WriteLine($"Getting product code from {metadata}");
@@ -32,7 +46,7 @@ namespace AcmeScrubber
                 validator.AssertCodeIsValid(code, metadata); //<- tu walidujemy czy Wasza logika zadziałała
 
                 Console.WriteLine($"Code [{code}] is valid\n");
-            }
+            }*/
 
 
             Console.ReadKey();
